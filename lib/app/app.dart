@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jellyfish/pages/forecast_page.dart';
+import 'package:jellyfish/app/features/forecast/forecast.dart';
 
 class JellyfishApp extends StatelessWidget {
   @override
@@ -9,6 +9,6 @@ class JellyfishApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: ForecastPage());
+        home: Forecast());
   }
 }

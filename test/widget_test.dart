@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jellyfish/app.dart';
+import 'package:jellyfish/app/app.dart';
 
 
 void main() {
